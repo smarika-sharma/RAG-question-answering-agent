@@ -157,11 +157,11 @@ def get_full_text_chunk(chunk_uuid: str) -> str:
             host=db_host,
             port=db_port
         )
-        
+
         cursor = conn.cursor()
         
         cursor.execute(
-            "SELECT chunk_text FROM chunks WHERE chunk_uuid = %s",
+            "SELECT chunk_text FROM chunks WHERE chunk_id = %s",
             (chunk_uuid,)
         )
         
