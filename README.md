@@ -2,6 +2,8 @@
 
 A FastAPI application that present two APIs. 1. for file (pdf/txt) upload and 2. for booking and getting answer to the question from the uploaded document.
 
+-Refer to Assessment_Documentation.pdf for outputs and detailed project workflow.
+
 ## Tech Stack
 
 - **Backend**: FastAPI
